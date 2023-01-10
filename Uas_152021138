@@ -3,8 +3,11 @@
 #include <iomanip>
 #include <math.h>
 
-//AL FATHLI RAHMAN
-//152021138
+
+// AL FATHLI RAHMAN
+// 152021138
+// EE
+
 using namespace std;
 int main()
 {
@@ -14,16 +17,17 @@ float data, totalX, totalY, totalXY, totalXkuadrat, totalYKuadrat,
 kuadrattotalX;
 int i, ulang, korelasi;
 cout << "\n";
+cout << "=============================================" << endl;
 cout << "           UAS PEMROGRAMAN DASAR\n" << endl;
 cout << " Nama : Al Fathli Rahman [15-2021-138]" << endl;
 cout << " Kelas : E" << endl;
-cout << "_____________________________________________" << endl;
+cout << "=============================================" << endl;
 cout << endl ;
 do
 {
  totalX=0, totalY=0, totalXY=0, totalXkuadrat=0, totalYKuadrat=0;
  cout << endl;
- cout << "Input Jumlah N : " ; cin >> data ;
+ cout << "INPUT JUMLAH N : " ; cin >> data ;
  cout << endl ;
 //input data
  for (i=0 ; i<data ; i++)
@@ -116,11 +120,12 @@ do
 
  // menampilkan hasil dari nilai korelasi r dan koefisien determinasi
 
- cout << "Output yang Dihasilkan" << endl;
+ cout << "========Output yang Dihasilkan================" << endl;
  cout << "a. Nilai Korelasi R = " << r << endl;
  cout << "b. Koefisien Determinasi = " << koefisiendeterminasi << endl;
  cout << "c. Kekuatan Hubungan dari Nilai Korelasi = " << korelasi <<
 endl;
+cout << "============================================="<< endl;
 getch();
 
  // fungsi mengulang program
@@ -130,5 +135,5 @@ getch();
  ulang = getch();
  }
  while (ulang=='Y' || ulang=='y');
-
+ return 0;
 }
